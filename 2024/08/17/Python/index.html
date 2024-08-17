@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>&#39;Python | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="pythonlist ,tuple,str.dict都是类 而非函数 序列一种数据结构，列表，字符串，元组，列表可变，字符串，元组不可变 1.索引 切片，步长，省略索引 none 序列[1,2,3,4,5,6,7,8,9,10] 序列操作:成员资格in,加减乘 min() max() len() listlist() list[100] &#x3D; 101 不能给不存在的元素赋值 del lis">
+<meta property="og:type" content="article">
+<meta property="og:title" content="&#39;Python">
+<meta property="og:url" content="http://example.com/2024/08/17/Python/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="pythonlist ,tuple,str.dict都是类 而非函数 序列一种数据结构，列表，字符串，元组，列表可变，字符串，元组不可变 1.索引 切片，步长，省略索引 none 序列[1,2,3,4,5,6,7,8,9,10] 序列操作:成员资格in,加减乘 min() max() len() listlist() list[100] &#x3D; 101 不能给不存在的元素赋值 del lis">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-08-17T08:26:02.000Z">
+<meta property="article:modified_time" content="2024-08-17T08:26:51.753Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Python" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/08/17/Python/" class="article-date">
+  <time class="dt-published" datetime="2024-08-17T08:26:02.000Z" itemprop="datePublished">2024-08-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      &#39;Python
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><p>list ,tuple,str.dict都是类</p>
+<p>而非函数</p>
+<h2 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h2><p>一种数据结构，列表，字符串，元组，列表可变，字符串，元组不可变</p>
+<p>1.索引</p>
+<p>切片，步长，省略索引</p>
+<p>none</p>
+<p>序列[1,2,3,4,5,6,7,8,9,10]</p>
+<p>序列操作:成员资格in,加减乘</p>
+<p>min()</p>
+<p>max()</p>
+<p>len()</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="list"><a href="#list" class="headerlink" title="list"></a>list</h2><p>list()</p>
+<p>list[100] &#x3D; 101</p>
+<p>不能给不存在的元素赋值</p>
+<p>del list[100] #删除列表元素</p>
+<p>[None] * 100 初始化一个100个元素的list</p>
+<h3 id="切片赋值"><a href="#切片赋值" class="headerlink" title="切片赋值"></a>切片赋值</h3><p>name &#x3D; list(‘Perl’)</p>
+<p>name[1: ] &#x3D; list(‘ython)</p>
+<h3 id="列表方法"><a href="#列表方法" class="headerlink" title="列表方法"></a>列表方法</h3><p>改变原列表change</p>
+<p>lst.append()			change</p>
+<p>clear() 清空			change</p>
+<p>copy() </p>
+<p>count()</p>
+<p>extend() 扩展		change</p>
+<p>index()</p>
+<p>insert()</p>
+<p>pop()删除并返回删除的值    change</p>
+<p>remove() 				change</p>
+<p>reverse() 				change 修改不返回任何值（remove,sort一样））   </p>
+<p>reversed不返回列表，返回迭代器</p>
+<p>sort() 						change</p>
+<p>sorted  获取排序后的列表副本</p>
+<h1 id="栈stack"><a href="#栈stack" class="headerlink" title="栈stack"></a>栈stack</h1><p>栈就像一叠盘子，你可以在上面放盘子，也可以在上面取盘子，最后放的最先被取，,就是后进先出(LIFO)</p>
+<p>push(python没有，用append代替)和pop是大家普遍接受的栈操作（加入和取走），</p>
+<h1 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h1><p>元组也是序列，元组不能修改</p>
+<p>（1，2，3）</p>
+<p>空元组    ()</p>
+<p>只包含一个值的元组 (24,)</p>
+<p>tuple() 转换和list()一样</p>
+<p>@@@@@用作映射中的键</p>
+<p>@@@@@有些内置函数和方法返回元组</p>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>字符串不可改变</p>
+<p>字符串格式设置</p>
+<p>format()  </p>
+<p>类型说明符	:f  :d</p>
+<p>宽度，精度，千位分隔符    :10,.2f</p>
+<p>string模块</p>
+<p>字符串方法()</p>
+<p>center	居中</p>
+<p>find	查找	find(‘hello’,1,100)设置起点和终点</p>
+<p>join	合并	 ‘&#x2F;’.join(‘ ‘,’usr’,’bin’,’env’)</p>
+<p>split()	‘1+2+3+4+5’.split(‘+’)</p>
+<p>lower	小写</p>
+<p>title	词首大写	string.capwords</p>
+<p>replace	替换</p>
+<p>strip()	去除头尾空白</p>
+<p>translate()	单字符替换，转换表</p>
+<p>is类型  方法</p>
+<h2 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h2><p>映射	python中只有一个内置的映射类型字典</p>
+<p>item	键-值</p>
+<p>键必须是独一无二的</p>
+<p>dict()</p>
+<p>k in d 检查列表是否包含k，检查键，比检查值效率高</p>
+<p>字符串格式设置： format_map()</p>
+<h3 id="字典方法"><a href="#字典方法" class="headerlink" title="字典方法"></a>字典方法</h3><p>clear()</p>
+<p>copy()</p>
+<p>fromkeys()</p>
+<p>get()</p>
+<p>items()</p>
+<p>keys()</p>
+<p>pop()</p>
+<p>popitem()</p>
+<p>setdefault()</p>
+<p>update()</p>
+<p>values()</p>
+<h1 id="语句syntax"><a href="#语句syntax" class="headerlink" title="语句syntax"></a>语句syntax</h1><p>缩进方式:四个空格</p>
+<p>:代码块</p>
+<p>True</p>
+<p>False</p>
+<p>三目运算符：status &#x3D; “friend” if name.endwith(‘gamth’) else “stranger”</p>
+<p>elif</p>
+<p>and    or    not </p>
+<p>短路逻辑（延迟求值）</p>
+<p>assert    断言</p>
+<h2 id="赋值"><a href="#赋值" class="headerlink" title="赋值"></a>赋值</h2><p>1.序列解包</p>
+<p>x,y,z &#x3D; 1, 2, 3</p>
+<p>values &#x3D; 1, 2, 3</p>
+<p>x, y, z &#x3D;values</p>
+<p>2.链式赋值</p>
+<p>x &#x3D; y &#x3D; function()</p>
+<p>3.增强赋值</p>
+<p>x +&#x3D; 1</p>
+<p>x *&#x3D; 2</p>
+<h3 id="流程控制"><a href="#流程控制" class="headerlink" title="流程控制"></a>流程控制</h3><h3 id="循环loop"><a href="#循环loop" class="headerlink" title="循环loop"></a>循环loop</h3><p>while</p>
+<p>for </p>
+<p>迭代iterate</p>
+<p>遍历traversal</p>
+<p>range()    步长</p>
+<p>迭代方法：</p>
+<p>zip()    缝合序列</p>
+<p>enumerate()    迭代获取索引</p>
+<p>sorted()</p>
+<p>reversed()</p>
+<p>break</p>
+<p>contiune</p>
+<p>else</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/08/17/Python/" data-id="clzxvkhey0000tstkbn4h948x" data-title="&#39;Python" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2024/08/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/08/">August 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/08/17/Python/">&#39;Python</a>
+          </li>
+        
+          <li>
+            <a href="/2024/08/17/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
